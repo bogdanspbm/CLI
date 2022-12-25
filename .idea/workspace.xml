@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbd1f5a5-1c5b-48f8-a88f-a514b3a05e98" name="Changes" comment="" />
+    <list default="true" id="cbd1f5a5-1c5b-48f8-a88f-a514b3a05e98" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AssignTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CommandsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GrepTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PipeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,13 +30,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2JPTbE5Qr7jfL6l0yVe5dyLE4eX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,20 +40,69 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.PipeTest">
+    <configuration name="AssignTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CLI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssignTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignTest.testAssignLetterInPipes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssignTest" />
+      <option name="METHOD_NAME" value="testAssignLetterInPipes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssignTest.testSimpleAssignNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssignTest" />
+      <option name="METHOD_NAME" value="testSimpleAssignNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrepTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GrepTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PipeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PipeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PipeTest" />
+        <item itemvalue="JUnit.GrepTest" />
+        <item itemvalue="JUnit.AssignTest" />
+        <item itemvalue="JUnit.AssignTest.testAssignLetterInPipes" />
+        <item itemvalue="JUnit.AssignTest.testSimpleAssignNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -66,10 +115,22 @@
       <option name="presentableId" value="Default" />
       <updated>1671978789293</updated>
       <workItem from="1671978790520" duration="2969000" />
+      <workItem from="1671986504112" duration="14332000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
