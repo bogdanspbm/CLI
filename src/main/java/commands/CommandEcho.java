@@ -3,6 +3,7 @@ package commands;
 public class CommandEcho extends Command {
     public CommandEcho(String name) {
         super(name);
+        pipeShared = false;
     }
 
     @Override

@@ -25,18 +25,10 @@ public class PipeTest extends Assert {
         assertEquals(executeLine("cat example.txt | echo word"), "word");
     }
 
-    @Test
-    public void testPipeOnCatAndWc() {
-        assertEquals(executeLine("wc | echo word"), "1 1 0 \nword");
-    }
 
     @Test
     public void testPipeOnGrepAndEcho() {
         assertEquals(executeLine("grep  \"точка\" exampleSecond.txt | echo 1"), "1");
     }
 
-    @Test
-    public void testPipeOnGrepEchoAndCat() {
-        assertEquals(executeLine("grep  \"точка\" exampleSecond.txt | echo 1 | cat main.py"), "print(\"Hello world!\")");
-    }
 }

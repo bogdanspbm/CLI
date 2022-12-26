@@ -10,6 +10,11 @@ public class Executer {
         String data = null;
         for (int i = 0; i < commandList.size(); i++) {
             Command command = commandList.get(i);
+
+            if (!command.getPipeShared()) {
+                data = null;
+            }
+
             data = command.execute(data);
         }
         return data;

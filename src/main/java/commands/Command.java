@@ -10,12 +10,17 @@ public abstract class Command {
     String name = "";
     List<String> params = new ArrayList<>();
     List<String> options = new ArrayList<>();
-
     Map<String, Integer> optionMap = new HashMap<>();
+
+    protected boolean pipeShared = true;
 
     public Command(String name) {
         this.name = name;
         generateOptionsMap();
+    }
+
+    public boolean getPipeShared() {
+        return pipeShared;
     }
 
     // Абстрактный метод вызова команды
